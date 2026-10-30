@@ -1,0 +1,43 @@
+# API Keys and Environment Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python Caches and Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints
+
+# Backend Uploads and Temporary Files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Generated Visualizations / Static Charts
+backend/static/charts/*
+!backend/static/charts/.gitkeep
+
+# Node.js / Frontend dependencies
+node_modules/
+frontend/node_modules/
+jspm_packages/
+
+# Production Builds
+frontend/dist/
+frontend/build/
+.svelte-kit/
+.next/
+out/
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
